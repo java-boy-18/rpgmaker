@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.formulario{
+    border: 1px black solid;
+    position: relative;
+    width: 100%;
+    box-shadow: -10px 10px 10px #381200;
+    margin-top:1%;
+    margin-bottom:1%;
+    color: #ffc300;
+}
+.input{
+    margin: 1% 1% 1% 1%;
+}
+#personagem{
+    margin-left: 1%;
+}
+#jogador{
+    margin-left: 3.1%;
+}
+#classe{
+    margin-left: 8.9%;
+}
+#raca{
+    margin-left: 9.71%;
+}
+#tendencia{
+    margin-left: 6.6%;
+}
+#divindade{
+    margin-left: 6.96%;
+}
+#tamanho{
+    margin-left: 7.5%;
+}
+#idade{
+    margin-left: 9.2%;
+}
+#sexo{
+    margin-left: 9.4%;
+}
+#altura{
+    margin-left: 8.32%;
+}
+#peso{
+    margin-left: 9.7%;
+}
+#olhos{
+    margin-left: 9.2%;
+}
+#cabelos{
+    margin-left: 8.1%;
+}
+#pele{
+    margin-left: 9.6%;
+}
+#save{
+    margin-left: 13.3%;
+    margin-bottom: 1%;
+}
+#titulo1{
+    
+    margin-left: 9%;
+}
+#titulo2{
+    float: left;
+    margin-left: 50%;
+}
+select{
+    width: 15.1%;
+}
