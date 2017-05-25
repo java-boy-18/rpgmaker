@@ -1,71 +1,9 @@
-#table{
-    border-collapse: separate;
-    width: 100%;
-}
 .all{
-   /* margin: 5% 5% 5% 5%;*/
-    font-family: 'arial';
+  border: 1px solid black;
+  width: 750px;
+  font-family: 'arial';
+  margin: 0 auto;
 }
-.table{
-    border-top: 1px solid black;
-}
-.habilidades{
-    width: 30%;
-    height: 30%;
-    border-collapse: separate;
-    border-spacing: 5px 5px;
-    margin-top:3%;
-}
-.hab{
-    width: 1%;
-    text-align: center;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-}
-.valores{
-    width: 100%;
-    border: 1px solid black;
-}
-#direita{
-    float: right;
-    width: 35%;
-    text-align: center;
-}
-.direita{
-    border-collapse: separate;
-    border-spacing: 5px 5px;
-}
-#pv{
-    float: right;
-    margin-top: 3.4%;
-    width: 70%;
-    text-align: center;
-}
-#ca{
-    float: right;
-    width: 70%;
-    text-align: center;
-}
-.pericias{
-    background-color: black;
-    color: white;
-}
-.pericia{
-    font-size: 10px;
-    text-align: left;
-}
-.border{
-    border:1px solid black;
-}
-.page2{
-    clear: right;
-    float: right;
-    width: 49%;
-    text-align: center;
-   /* border:1px solid black;*/
-}
-.talentos{
-    border-bottom: 1px solid black;
-    border-collapse: collapse;
+#jogador{
+  
 }
