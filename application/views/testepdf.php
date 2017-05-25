@@ -8,7 +8,11 @@
         <script src="<?php echo base_url('templates/jquery/jspdf.min.js') ?>"></script>
         <script src="<?php echo base_url('templates/jquery/jquery.min.js') ?>"></script>
 		<title>Ficha</title>
-		
+		<style media="print">
+			button{
+				display: none;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -44,7 +48,7 @@
 				</tr>
 			</table>
 			<div class="col-sm-1" style="border: 1px solid black">AQUI</div>
-			<div class="col-sm-1" style="border: 1px solid black">AQUI</div>			
+			<div class="col-sm-1" style="border: 1px solid black">AQUI</div>
 				<!--<table class="table">
 					<tr>
 						<td style="font-size: 5px">HABILIDADE</td>
@@ -97,6 +101,7 @@
 					</tr>
 				</table>-->
 		</div>
-	<button id="btGerarPDF">gerar PDF</button>
+	<!--<button id="btGerarPDF">gerar PDF</button>-->
+	<INPUT NAME="print"  TYPE="button" VALUE="Imprimir este documento!" ONCLICK="javascript:window.print();">
 	</body>
 </html>

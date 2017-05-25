@@ -6,8 +6,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <head>
         <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/ficha'); ?>">
         <title>Ficha</title>
+        <style media="print">
+          button{
+            display: none;
+          }
+        </style>
     </head>
     <body>
+      <INPUT NAME="print"  TYPE="button" VALUE="Imprimir este documento!" ONCLICK="javascript:window.print();">
         <?php
         //$jogador = $_POST['jogador'];
         //$personagem = $_POST['personagem']

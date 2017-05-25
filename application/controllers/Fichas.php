@@ -8,9 +8,9 @@ class Fichas extends CI_Controller {
         $this->load->view('layout');
     }
     public function save(){
-    	$this->load->view('testepdf');
+    	$this->load->view('geraficha');
 		/*$html = $this->load->view('testepdf','',TRUE);
-		$mpdf=new mPDF(); 
+		$mpdf=new mPDF();
 		$mpdf->SetDisplayMode('fullpage');
 		$mpdf->WriteHTML($html);
 		$mpdf->Output();*/
