@@ -108,6 +108,374 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td style="font-size:5px">OUTROS</td>
             </tr>
           </table>
+          <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - PERICIAS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <table class="pericias">
+            <tr class="hab">
+              <td style="border:1px solid black;"colspan="4">PER&Iacute;CIAS</td>
+              <td style="font-size:6px;border:1px solid black;">GRADUA&Ccedil;&Atilde;O M&Aacute;XIMA</td>
+              <td style="border:1px solid black;text-align:center; background-color:white;color:black;">/</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid black;">NOME DA PER&Iacute;CIA</td>
+              <td style="border:1px solid black;">HABILIDADE<br>CHAVE</td>
+              <td style="border:1px solid black;">MOD<br>PER&Iacute;CIAS</td>
+              <td style="border:1px solid black;">MOD<br>HABILIDADE</td>
+              <td style="border:1px solid black;">GRADUA&Ccedil;&Atilde;O</td>
+              <td style="border:1px solid black;">OUTROS</td>
+            </tr>
+            <tr>
+              <td>ABRIR FECHADURA</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ACROBACIA</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ADESTRAR ANIMAIS</td>
+              <td style="text-align:center;">CAR</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ARTE DA FUGA</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ATUA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">CAR</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ATUA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">CAR</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ATUA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">CAR</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>AVALIA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">INT</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>BLEFAR</td>
+              <td style="text-align:center;">CAR</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CAVALGAR</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CONCENTRA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">CON</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CONHECIMENTO</td>
+              <td style="text-align:center;">INT</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CONHECIMENTO</td>
+              <td style="text-align:center;">INT</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CONHECIMENTO</td>
+              <td style="text-align:center;">INT</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CONHECIMENTO</td>
+              <td style="text-align:center;">INT</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CONHECIMENTO</td>
+              <td style="text-align:center;">INT</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>CURA</td>
+              <td style="text-align:center;">SAB</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>DECIFRAR ESCRITA</td>
+              <td style="text-align:center;">INT</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>DIPLOMACIA</td>
+              <td style="text-align:center;">CAR</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>DISFARCE</td>
+              <td style="text-align:center;">CAR</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>EQUIL&Iacute;BRIO</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ESCALAR</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>ESCONDER-SE</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>FALSIFICA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>FURTIVIDADE</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>IDENTIFICAR M&Aacute;GIA</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>INTIMIDAR</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>NATA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>OBSERVAR</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>OBTER INFORMA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>OF&Iacute;CIOS</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>OF&Iacute;CIOS</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>OF&Iacute;CIOS</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>OPERAR MECANISMO</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>OUVIR</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>PROCURAR</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>PROFISS&Atilde;O</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>PROFISS&Atilde;O</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>PRESTIDIGITA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>SALTAR</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>SENTIR MOTIVA&Ccedil;&Atilde;O</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>SOBREVIV&Ecirc;NCIA</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>USAR CORDAS</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+            <tr>
+              <td>USAR INSTRUMENTO M&Aacute;GICO</td>
+              <td style="text-align:center;">DES</td>
+              <td class="border"></td>
+              <td style="border-bottom:1px solid black;font-size:12px;">=</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+            </tr>
+          </table>
           <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - HABILIDADES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
           <table>
             <tr>
