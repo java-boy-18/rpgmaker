@@ -8,9 +8,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <title>Ficha</title>
     </head>
     <body>
-        <div class="all" style="margin-top: 2%;">
+        <div class="all">
           <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - CABEÇALHO - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-          <table style="width:100%;">
+          <table style="width:100%;font-size:02px;">
             <tr>
               <td colspan="4"></td>
               <td colspan="4"></td>
@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td colspan="4" class="jogador">NOME DO PERSONAGEM</td>
             </tr>
             <tr>
-              <td colspan="4"></td>
+              <td colspan="4"><br></td>
               <td colspan="2"></td>
               <td></td>
               <td></td>
@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="jogador">DIVINDADE</td>
             </tr>
             <tr>
-              <td></td>
+              <td><br></td>
               <td></td>
               <td></td>
               <td></td>
@@ -129,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ACROBACIA</td>
@@ -137,7 +137,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ADESTRAR ANIMAIS</td>
@@ -145,7 +145,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ARTE DA FUGA</td>
@@ -153,7 +153,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ATUA&Ccedil;&Atilde;O</td>
@@ -161,7 +161,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ATUA&Ccedil;&Atilde;O</td>
@@ -169,7 +169,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ATUA&Ccedil;&Atilde;O</td>
@@ -177,7 +177,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>AVALIA&Ccedil;&Atilde;O</td>
@@ -185,7 +185,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>BLEFAR</td>
@@ -193,7 +193,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CAVALGAR</td>
@@ -201,7 +201,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CONCENTRA&Ccedil;&Atilde;O</td>
@@ -209,7 +209,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CONHECIMENTO</td>
@@ -217,7 +217,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CONHECIMENTO</td>
@@ -225,7 +225,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CONHECIMENTO</td>
@@ -233,7 +233,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CONHECIMENTO</td>
@@ -241,7 +241,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CONHECIMENTO</td>
@@ -249,7 +249,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>CURA</td>
@@ -257,7 +257,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>DECIFRAR ESCRITA</td>
@@ -265,7 +265,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>DIPLOMACIA</td>
@@ -273,7 +273,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>DISFARCE</td>
@@ -281,7 +281,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>EQUIL&Iacute;BRIO</td>
@@ -289,15 +289,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ESCALAR</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">FOR</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>ESCONDER-SE</td>
@@ -305,15 +305,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>FALSIFICA&Ccedil;&Atilde;O</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">INT</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>FURTIVIDADE</td>
@@ -321,111 +321,111 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>IDENTIFICAR M&Aacute;GIA</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">INT</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>INTIMIDAR</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">CAR</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>NATA&Ccedil;&Atilde;O</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">FOR</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>OBSERVAR</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">SAB</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>OBTER INFORMA&Ccedil;&Atilde;O</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">CAR</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>OF&Iacute;CIOS</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">INT</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>OF&Iacute;CIOS</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">INT</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>OF&Iacute;CIOS</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">INT</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>OPERAR MECANISMO</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">INT</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>OUVIR</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">SAB</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>PROCURAR</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">INT</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>PROFISS&Atilde;O</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">SAB</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>PROFISS&Atilde;O</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">SAB</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>PRESTIDIGITA&Ccedil;&Atilde;O</td>
@@ -433,31 +433,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>SALTAR</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">FOR</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>SENTIR MOTIVA&Ccedil;&Atilde;O</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">SAB</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>SOBREVIV&Ecirc;NCIA</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">SAB</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>USAR CORDAS</td>
@@ -465,15 +465,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
             <tr>
               <td>USAR INSTRUMENTO M&Aacute;GICO</td>
-              <td style="text-align:center;">DES</td>
+              <td style="text-align:center;">CAR</td>
               <td class="border"></td>
               <td style="border-bottom:1px solid black;font-size:12px;">=</td>
               <td style="border-bottom:1px solid black;font-size:12px;">+</td>
-              <td style="border-bottom:1px solid black;font-size:12px;">+</td>
+              <td style="border-bottom:1px solid black;border-right:1px solid black;font-size:12px;">+</td>
             </tr>
           </table>
           <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - HABILIDADES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -528,6 +528,413 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <td class="border"></td>
             </tr>
           </table>
+          <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - RESISTENCIA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <table class="resistencia" style="text-align:center;">
+            <tr>
+              <td style="font-size:12px">RESIST&Ecirc;NCIA</td>
+              <td style="font-size:08px">TOTAL</td>
+              <td></td>
+              <td style="font-size:08px">B&Ocirc;NUS<br>BASE</td>
+              <td></td>
+              <td style="font-size:08px;">MOD <br>HABIL</td>
+              <td></td>
+              <td style="font-size:08px">MOD<br>M&Aacute;GICO</td>
+              <td></td>
+              <td style="font-size:08px">OUTROS</td>
+              <td></td>
+              <td style="font-size:08px">MOD<br>TEMP</td>
+            </tr>
+            <tr>
+              <td class="hab">FORTITUDE<BR>(CONSTITUI&Ccedil;&Atilde;O)</td>
+              <td class="border"></td>
+              <td style="width:1%">=</td>
+              <td class="border"></td>
+              <td style="width:1%">+</td>
+              <td class="border"></td>
+              <td style="width:1%">+</td>
+              <td class="border"></td>
+              <td style="width:1%">+</td>
+              <td class="border"></td>
+              <td style="width:1%">+</td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td class="hab">REFLEXOS<br>(DESTREZA)</td>
+              <td class="border"></td>
+              <td style="width:1%">=</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td class="hab">VONTADE<br>(SABEDORIA)</td>
+              <td class="border"></td>
+              <td style="width:1%">=</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+              <td class="">+</td>
+              <td class="border"></td>
+            </tr>
+          </table>
+          <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - BONUS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <table>
+            <tr>
+              <td class="hab">B&Ocirc;NUS BASE DE ATAQUE</td>
+              <td class="border" style="width:19%"></td>
+              <td class="hab">RESIST&Ecirc;NCIA<br>MAGIA</td>
+              <td class="border" style="width:19%"></td>
+            </tr>
+          </table>
+          <table style="width:45%;font-size:8px;">
+            <tr>
+              <td class="hab" style="width:1%;">AGARRAR</td>
+              <td class="border"></td>
+              <td style="width:1%;">=</td>
+              <td class="border"></td>
+              <td style="width:1%;">+</td>
+              <td class="border"></td>
+              <td style="width:1%;">+</td>
+              <td class="border"></td>
+              <td style="width:1%;">+</td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>TOTAL</td>
+              <td></td>
+              <td>B&Ocirc;NUS BASE</td>
+              <td></td>
+              <td>MOD.<br>FOR&Ccedil;A</td>
+              <td></td>
+              <td>MOD.<br>TAMANHO</td>
+              <td></td>
+              <td>OUTROS</td>
+            </tr>
+          </table>
+          <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - ATAQUE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <table style="font-size:8px;width:45%;border-collapse:collapse;">
+            <tr>
+              <td class="hab" style="width:30%;">ATAQUE</td>
+              <td class="hab">B&Ocirc;NUS ATAQUE</td>
+              <td class="hab">DANO</td>
+              <td class="hab">SUCESSO DECISIVO</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td class="hab">ALCANCE</td>
+              <td class="hab">TIPO</td>
+              <td class="hab" colspan="2">OBSERVA&Ccedil;&Otilde;ES</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border" colspan="2"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;">
+            <tr>
+              <td>MUNI&Ccedil;&Atilde;O</td>
+              <td>_________________________</td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;width:45%;border-collapse:collapse;">
+            <tr>
+              <td class="hab" style="width:30%;">ATAQUE</td>
+              <td class="hab">B&Ocirc;NUS ATAQUE</td>
+              <td class="hab">DANO</td>
+              <td class="hab">SUCESSO DECISIVO</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td class="hab">ALCANCE</td>
+              <td class="hab">TIPO</td>
+              <td class="hab" colspan="2">OBSERVA&Ccedil;&Otilde;ES</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border" colspan="2"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;">
+            <tr>
+              <td>MUNI&Ccedil;&Atilde;O</td>
+              <td>_________________________</td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;width:45%;border-collapse:collapse;">
+            <tr>
+              <td class="hab" style="width:30%;">ATAQUE</td>
+              <td class="hab">B&Ocirc;NUS ATAQUE</td>
+              <td class="hab">DANO</td>
+              <td class="hab">SUCESSO DECISIVO</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td class="hab">ALCANCE</td>
+              <td class="hab">TIPO</td>
+              <td class="hab" colspan="2">OBSERVA&Ccedil;&Otilde;ES</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border" colspan="2"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;">
+            <tr>
+              <td>MUNI&Ccedil;&Atilde;O</td>
+              <td>_________________________</td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;width:45%;border-collapse:collapse;">
+            <tr>
+              <td class="hab" style="width:30%;">ATAQUE</td>
+              <td class="hab">B&Ocirc;NUS ATAQUE</td>
+              <td class="hab">DANO</td>
+              <td class="hab">SUCESSO DECISIVO</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td class="hab">ALCANCE</td>
+              <td class="hab">TIPO</td>
+              <td class="hab" colspan="2">OBSERVA&Ccedil;&Otilde;ES</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border" colspan="2"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;">
+            <tr>
+              <td>MUNI&Ccedil;&Atilde;O</td>
+              <td>_________________________</td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;width:45%;border-collapse:collapse;">
+            <tr>
+              <td class="hab" style="width:30%;">ATAQUE</td>
+              <td class="hab">B&Ocirc;NUS ATAQUE</td>
+              <td class="hab">DANO</td>
+              <td class="hab">SUCESSO DECISIVO</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+            <tr>
+              <td class="hab">ALCANCE</td>
+              <td class="hab">TIPO</td>
+              <td class="hab" colspan="2">OBSERVA&Ccedil;&Otilde;ES</td>
+            </tr>
+            <tr>
+              <td class="border"><br><br></td>
+              <td class="border"></td>
+              <td class="border" colspan="2"></td>
+            </tr>
+          </table>
+          <table style="font-size:8px;">
+            <tr>
+              <td>MUNI&Ccedil;&Atilde;O</td>
+              <td>_________________________</td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+              <td class="border"></td>
+            </tr>
+          </table>
+<!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - PAGINA 2 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - PAGINA 2 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
         </div>
     </body>
 </html>
