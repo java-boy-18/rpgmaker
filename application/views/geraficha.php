@@ -33,7 +33,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <td class="jogador">TEND&Ecirc;NCIA</td>
             <td class="jogador">DIVINDADE</td>
           </tr>
-			<!-- se ferrou -->
           <tr>
             <td style="font-size:12px;"><?php echo $this->input->post('tamanho');?></td>
             <td style="font-size:12px;"><?php echo $this->input->post('idade');?></td>
