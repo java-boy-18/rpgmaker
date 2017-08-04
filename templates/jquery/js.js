@@ -1,23 +1,5 @@
 function slide1() {
-    document.getElementById('id').src = "templates/imagens/01.jpg";
-    setTimeout("slide2()", 3000)
-}
-
-function slide2() {
-    document.getElementById('id').src = "templates/imagens/02.jpg";
-    setTimeout("slide3()", 3000)
-}
-
-function slide3() {
     document.getElementById('id').src = "templates/imagens/03.jpg";
-    setTimeout("slide4()", 3000)
-}
-function slide4() {
-    document.getElementById('id').src = "templates/imagens/04.jpg";
-    setTimeout("slide5()", 3000)
-}
-function slide5() {
-    document.getElementById('id').src = "templates/imagens/05.jpg";
     setTimeout("slide6()", 3000)
 }
 function slide6() {
@@ -50,5 +32,5 @@ function slide12() {
 }
 function slide13() {
     document.getElementById('id').src = "templates/imagens/13.jpg";
-    setTimeout("slide4()", 3000)
+    setTimeout("slide1()", 3000)
 }

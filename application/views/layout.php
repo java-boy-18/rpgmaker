@@ -20,14 +20,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="<?php echo base_url('home');?>"><img src="<?php echo base_url('trunk/templates/imagens/ded.png'); ?> " style="height: 50px; padding-bottom: 20px;"></a>
+                        <a class="navbar-brand" href="<?php echo base_url('home');?>"><img src="<?php echo base_url('templates/imagens/ded.png'); ?> " style="height: 50px; padding-bottom: 20px;"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a id="fichas" href="<?php echo base_url('Fichas') ?>">Fichas</a></li>
-                            <li><a id="livros" href="#">Livros</a></li>
+                            <li><a id="livros" href="<?php echo base_url('Livros') ?>">Livros</a></li>
                             <li><a id="jogo" href="#">O Jogo</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -38,6 +38,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 $this->load->view('fichas');
             }elseif($this->uri->segment(1) == 'home'){
                 $this->load->view('home');
+            }elseif($this->uri->segment(1) == 'Livros'){
+                $this->load->view('livros');
             }
         ?>
             <div class="col-sm-12" style="border: 1px black solid; text-align: center; margin-top: 1%;">
