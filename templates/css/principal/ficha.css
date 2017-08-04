@@ -14,13 +14,21 @@
   font-size: 10px;
   text-align: center;
   border: 1px solid black;
+  border-collapse: collapse;
 }
 .border{
   border:1px solid black;
+  border-collapse: collapse;
 }
 .ca{
   float:right;
   width: 60%;
+}
+.meio{
+  float:right;
+  width: 25%;
+  border-collapse: collapse;
+  margin-right: 10px;
 }
 .pv{
   float:right;
@@ -36,4 +44,13 @@
 }
 .resistencia{
   width: 45%;
+}
+.talentos{
+  border-bottom: 1px solid black;
+}
+.magias{
+  margin-right: 10px;
+  font-size: 10px;
+  width: 1%;
+  text-align: center;
 }
