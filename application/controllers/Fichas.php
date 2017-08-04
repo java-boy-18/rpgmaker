@@ -3,7 +3,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Fichas extends CI_Controller {
-
+// testando update
     public function index() {
         $this->load->view('layout');
     }
