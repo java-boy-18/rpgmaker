@@ -1,6 +1,6 @@
 @font-face {
-    font-family: FirstOrder;
-    src: url(firstv2.ttf);
+    /*font-family: FirstOrder;
+    src: url(firstv2.ttf);*/
 }
 body{
     background-image: linear-gradient(to right,#4c2600,#301800 80%);
@@ -8,7 +8,7 @@ body{
     color: #ffc300;
 }
 .all{
-    font-family: FirstOrder;
+    font-family: arial;
     margin:1% 1% 1% 1%;
 }
 .slide{
@@ -58,6 +58,10 @@ li a {
     background-color: #422700;
     color: #ffc300;
 }
+#usuario:hover{
+    background-color: #422700;
+    color: #ffc300;
+}
 #jogo:hover{
     background-color: #422700;
     color: #ffc300;
@@ -67,6 +71,10 @@ li a {
     color: #ffc300;
 }
 #fichas:active{
+    background-color: #422700;
+    color: #ffc300;
+}
+#usuario:active{
     background-color: #422700;
     color: #ffc300;
 }

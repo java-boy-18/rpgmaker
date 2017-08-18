@@ -15,8 +15,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <title>Fichas</title>
     </head>
     <body>
-      <div class="col-sm-6" >
-        <table class="table table-condensed"  >
+      <div class="col-sm-12" >
+        <table class="table table-condensed" >
           <thead>
             <td>Nome</td>
             <td>Edi&ccedil;&atilde;o</td>
@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <tr>
             <td>Livro do Jogador</td>
             <td>3.5</td>
-            <td><a class="btn btn-default" target="_blank" href="<?php echo base_url('templates/livros/Jogador 3.5.pdf') ?>">Download</a></td>
+            <td><a class="btn btn-default" style="backgorund-color:#422700" target="_blank" href="<?php echo base_url('templates/livros/Jogador 3.5.pdf') ?>">Download</a></td>
           </tr>
           <tr>
             <td>Livro do Mestre</td>

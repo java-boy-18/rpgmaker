@@ -1,5 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+if(!$_SESSION['logged_in']){
+  $session = array(
+    'logged_in' => ''
+  );
+  $this->session->set_userdata($session);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
         <link rel="stylesheet" href="<?php echo base_url('templates/jquery/jquery.min.js'); ?>">
-        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
         <title>Home</title>
     </head>
     <body>
@@ -20,16 +26,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="<?php echo base_url('home');?>"><img src="<?php echo base_url('templates/imagens/ded.png'); ?> " style="height: 50px; padding-bottom: 20px;"></a>
+                        <a class="navbar-brand" href="<?php echo base_url('home');?>"><img src="<?php echo base_url('templates/imagens/ded.png'); ?> " style="height: 50px;padding-bottom: 20px;"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a id="fichas" href="<?php echo base_url('Fichas') ?>">Fichas</a></li>
-                            <li><a id="livros" href="<?php echo base_url('Livros') ?>">Livros</a></li>
-                            <li><a id="jogo" href="#">O Jogo</a></li>
-                        </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a id="fichas" href="<?php echo base_url('Fichas') ?>">Fichas</a></li>
+                        <li><a id="livros" href="<?php echo base_url('Livros') ?>">Livros</a></li>
+                        <li>
+                        </li>
+                      </ul>
+                      <?php if($_SESSION['logged_in'] != TRUE){?>
+                        <form class="navbar-form navbar-right" action="Home/login" method="post">
+                         <div class="form-group">
+                           <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usu&aacute;rio">
+                         </div>
+                         <div class="form-group">
+                           <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha">
+                         </div>
+                         <button type="submit" class="btn btn-default">Login</button>
+                         <div class="form-group">
+                           <a class="btn btn-default" href="Home/cadastro">Cadastrar-se</a>
+                         </div>
+                       </form>
+                     <?php }else{ ?>
+                       <ul class="nav navbar-nav navbar-right">
+                         <li><a id="usuario" href="#"><?php echo $_SESSION['usuario']; ?></a></li>
+                       </ul>
+                     <?php } ?>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
@@ -40,6 +65,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 $this->load->view('home');
             }elseif($this->uri->segment(1) == 'Livros'){
                 $this->load->view('livros');
+            }elseif($this->uri->segment(1) == 'Jogo'){
+                $this->load->view('jogo');
             }
         ?>
             <div class="col-sm-12" style="border: 1px black solid; text-align: center; margin-top: 1%;">
