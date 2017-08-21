@@ -8,12 +8,25 @@ class Fichas extends CI_Controller {
         $this->load->view('layout');
     }
     public function save(){
+      if($_SESSION['logged_in'] == TRUE){
+        $this->db->set('idusuario',$_SESSION['idusuario']);
+        $this->db->set('jogador',$this->input->post('jogador'));
+        $this->db->set('personagem',$this->input->post('personagem'));
+        $this->db->set('classe',$this->input->post('classe'));
+        $this->db->set('raca',$this->input->post('raca'));
+        $this->db->set('tendencia',$this->input->post('tendencia'));
+        $this->db->set('divindade',$this->input->post('divindade'));
+        $this->db->set('tamanho',$this->input->post('tamanho'));
+        $this->db->set('idade',$this->input->post('idade'));
+        $this->db->set('sexo',$this->input->post('sexo'));
+        $this->db->set('altura',$this->input->post('altura'));
+        $this->db->set('peso',$this->input->post('peso'));
+        $this->db->set('olhos',$this->input->post('olhos'));
+        $this->db->set('cabelos',$this->input->post('cabelos'));
+        $this->db->set('pele',$this->input->post('pele'));
+        $this->db->insert('fichas');
+      }
     	$this->load->view('geraficha');
-		/*$html = $this->load->view('testepdf','',TRUE);
-		$mpdf=new mPDF();
-		$mpdf->SetDisplayMode('fullpage');
-		$mpdf->WriteHTML($html);
-		$mpdf->Output();*/
     }
 
 }
