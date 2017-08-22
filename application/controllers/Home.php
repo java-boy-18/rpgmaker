@@ -26,4 +26,9 @@ class Home extends CI_Controller {
     public function cadastro(){
 
     }
+    public function sair(){
+      $array_items = array('usuario', 'idusuario','logged_in');
+      $this->session->unset_userdata($array_items);
+      redirect('home');
+    }
 }

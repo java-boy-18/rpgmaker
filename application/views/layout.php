@@ -1,8 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-if(!$_SESSION['logged_in']){
+if(!$_SESSION){
   $session = array(
-    'logged_in' => ''
+    'logged_in' => FALSE
   );
   $this->session->set_userdata($session);
 }
@@ -51,9 +51,14 @@ if(!$_SESSION['logged_in']){
                          </div>
                        </form>
                      <?php }else{ ?>
-                       <ul class="nav navbar-nav navbar-right">
-                         <li><a id="usuario" href="#"><?php echo $_SESSION['usuario']; ?></a></li>
-                       </ul>
+                       <div class="dropdown navbar-right">
+                          <button class="dropbtn"><?php echo $_SESSION['usuario'] ?></button>
+                          <div class="dropdown-content">
+                            <a href="#">Editar Perfil</a>
+                            <a href="#">Minhas Fichas</a>
+                            <a href="Home/sair">Sair</a>
+                          </div>
+                        </div>
                      <?php } ?>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
