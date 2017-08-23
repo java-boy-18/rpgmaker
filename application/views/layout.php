@@ -18,7 +18,7 @@ if(!$_SESSION){
         <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
         <link rel="stylesheet" href="<?php echo base_url('templates/jquery/jquery.min.js'); ?>">
         <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
-        <title>Home</title>
+        <!-- <title>Home</title> -->
     </head>
     <body>
         <div class="container-fluid " style="margin-top: 1%;margin-bottom: 1%;">
@@ -37,7 +37,7 @@ if(!$_SESSION){
                         <li>
                         </li>
                       </ul>
-                      <?php if($_SESSION['logged_in'] != TRUE){?>
+                      <?php if(!isset($_SESSION['logged_in'])){?>
                         <form class="navbar-form navbar-right" action="Home/login" method="post">
                          <div class="form-group">
                            <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usu&aacute;rio">
@@ -72,6 +72,8 @@ if(!$_SESSION){
                 $this->load->view('livros');
             }elseif($this->uri->segment(1) == 'Jogo'){
                 $this->load->view('jogo');
+            }elseif($this->uri->segment(2) == 'cadastro'){
+                $this->load->view('cadastro');
             }
         ?>
             <div class="col-sm-12" style="border: 1px black solid; text-align: center; margin-top: 1%;">
