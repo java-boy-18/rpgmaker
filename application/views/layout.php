@@ -55,7 +55,7 @@ if(!$_SESSION){
                           <button class="dropbtn"><?php echo $_SESSION['usuario'] ?></button>
                           <div class="dropdown-content">
                             <a href="#">Editar Perfil</a>
-                            <a href="#">Minhas Fichas</a>
+                            <a href="Fichas/minhasfichas">Minhas Fichas</a>
                             <a href="Home/sair">Sair</a>
                           </div>
                         </div>
@@ -64,7 +64,9 @@ if(!$_SESSION){
                 </div><!-- /.container-fluid -->
             </nav>
             <?php
-            if($this->uri->segment(1) == 'Fichas'){
+            if($this->uri->segment(2) == 'minhasfichas'){
+                $this->load->view('minhasfichas');
+            }elseif($this->uri->segment(1) == 'Fichas'){
                 $this->load->view('fichas');
             }elseif($this->uri->segment(1) == 'home'){
                 $this->load->view('home');

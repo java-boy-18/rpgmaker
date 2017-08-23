@@ -28,5 +28,18 @@ class Fichas extends CI_Controller {
       }
     	$this->load->view('geraficha');
     }
+    public function geraficha(){
+      $this->load->view('geraficha');
+    }
+    public function minhasfichas(){
+      $userid = $_SESSION['idusuario'];
+      $rs['data'] = $this->db->select('*')->from('fichas')->where('idusuario',$userid)->get()->result_array();
+      $this->load->view('layout',$rs);
+    }
+    public function excluir(){
+      $id = $this->uri->segment(3);
+      $this->db->where('id',$id)->delete('fichas');
+      redirect('Fichas/minhasfichas');
+    }
 
 }
