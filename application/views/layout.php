@@ -38,7 +38,7 @@ if(!$_SESSION){
                         </li>
                       </ul>
                       <?php if(!isset($_SESSION['logged_in'])){?>
-                        <form class="navbar-form navbar-right" action="Home/login" method="post">
+                        <form class="navbar-form navbar-right" action="<?php echo base_url('Home/login') ?>" method="post">
                          <div class="form-group">
                            <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usu&aacute;rio">
                          </div>
@@ -47,16 +47,16 @@ if(!$_SESSION){
                          </div>
                          <button type="submit" class="btn btn-default">Login</button>
                          <div class="form-group">
-                           <a class="btn btn-default" href="Home/cadastro">Cadastrar-se</a>
+                           <a class="btn btn-default" href="<?php echo base_url('Home/cadastro') ?>">Cadastrar-se</a>
                          </div>
                        </form>
                      <?php }else{ ?>
                        <div class="dropdown navbar-right">
-                          <button class="dropbtn"><?php echo $_SESSION['usuario'] ?></button>
+                          <button class="dropbtn"><?php echo $_SESSION['usuario'] ?><span class="caret"></span></button>
                           <div class="dropdown-content">
                             <a href="#">Editar Perfil</a>
-                            <a href="Fichas/minhasfichas">Minhas Fichas</a>
-                            <a href="Home/sair">Sair</a>
+                            <a href="<?php echo base_url('Fichas/minhasfichas') ?>">Minhas Fichas</a>
+                            <a href="<?php echo base_url('Home/sair') ?>">Sair</a>
                           </div>
                         </div>
                      <?php } ?>
@@ -65,17 +65,19 @@ if(!$_SESSION){
             </nav>
             <?php
             if($this->uri->segment(2) == 'minhasfichas'){
-                $this->load->view('minhasfichas');
-            }elseif($this->uri->segment(1) == 'Fichas'){
-                $this->load->view('fichas');
-            }elseif($this->uri->segment(1) == 'home'){
-                $this->load->view('home');
-            }elseif($this->uri->segment(1) == 'Livros'){
-                $this->load->view('livros');
-            }elseif($this->uri->segment(1) == 'Jogo'){
-                $this->load->view('jogo');
+              $this->load->view('minhasfichas');
             }elseif($this->uri->segment(2) == 'cadastro'){
-                $this->load->view('cadastro');
+              $this->load->view('cadastro');
+            }elseif($this->uri->segment(1) == 'Fichas'){
+              $this->load->view('fichas');
+            }elseif($this->uri->segment(1) == 'home'){
+              $this->load->view('home');
+            }elseif($this->uri->segment(1) == 'Home'){
+              $this->load->view('home');
+            }elseif($this->uri->segment(1) == 'Livros'){
+              $this->load->view('livros');
+            }elseif($this->uri->segment(1) == 'Jogo'){
+              $this->load->view('jogo');
             }
         ?>
             <div class="col-sm-12" style="border: 1px black solid; text-align: center; margin-top: 1%;">

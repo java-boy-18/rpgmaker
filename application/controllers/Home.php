@@ -8,20 +8,35 @@ class Home extends CI_Controller {
         $this->load->view('layout');
     }
     public function login(){
-      $usuario = $this->input->post('usuario');
-      $senha = md5($this->input->post('senha'));
-      $login = $this->db->select('usuario,senha,id')->from('usuarios')->where('usuario',$usuario)->where('senha',$senha)->get()->first_row('array');
-      if(sizeof($login) > 0){
-        $session = array(
-          'usuario'  => $usuario,
-          'idusuario'  => $login['id'],
-          'logged_in' => TRUE
-        );
-        $this->session->set_userdata($session);
-        redirect('home');
+      $alerta = null;
+      $this->form_validation->set_rules('usuario','Usu&aacute;rio','required');
+      $this->form_validation->set_rules('senha','Senha','required');
+      if($this->form_validation->run() == TRUE){
+        $usuario = $this->input->post('usuario');
+        $senha = md5($this->input->post('senha'));
+        $login = $this->db->select('usuario,senha,id')->from('usuarios')->where('usuario',$usuario)->where('senha',$senha)->get()->first_row('array');
+        if(sizeof($login) > 0){
+          $session = array(
+            'usuario'  => $usuario,
+            'idusuario'  => $login['id'],
+            'logged_in' => TRUE
+          );
+          $this->session->set_userdata($session);
+          redirect('home');
+        }else{
+          redirect('home');
+        }
       }else{
-        redirect('home');
+        $alerta = array(
+          'class' => 'danger',
+          'mensagem' => 'Erro ao realizar login<br>'.validation_errors()
+        );
       }
+      $dados = array(
+        "alerta" =>$alerta
+      );
+      redirect('home',$dados);
+
     }
     public function cadastro(){
       $this->load->view('layout');
