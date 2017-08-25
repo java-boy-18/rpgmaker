@@ -22,20 +22,20 @@ class Home extends CI_Controller {
             'logged_in' => TRUE
           );
           $this->session->set_userdata($session);
-          redirect('home');
         }else{
-          redirect('home');
+          $alerta = array(
+            'class' => 'danger',
+            'mensagem' => '<br> Usu&aacute;rio n&atilde;o cadastrado'
+          );
         }
       }else{
         $alerta = array(
           'class' => 'danger',
-          'mensagem' => 'Erro ao realizar login<br>'.validation_errors()
+          'mensagem' => '<br>'.validation_errors()
         );
       }
-      $dados = array(
-        "alerta" =>$alerta
-      );
-      redirect('home',$dados);
+      $this->session->set_userdata($alerta);
+      redirect('home');
 
     }
     public function cadastro(){

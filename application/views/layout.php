@@ -6,6 +6,9 @@ if(!$_SESSION){
   );
   $this->session->set_userdata($session);
 }
+if(!isset($alerta)){
+  $alerta = null;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +19,7 @@ if(!$_SESSION){
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
-        <link rel="stylesheet" href="<?php echo base_url('templates/jquery/jquery.min.js'); ?>">
+        <script type="text/javascript" src="<?php echo base_url('templates/jquery/jquery.min.js'); ?>"></script>
         <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
         <!-- <title>Home</title> -->
     </head>
@@ -37,7 +40,9 @@ if(!$_SESSION){
                         <li>
                         </li>
                       </ul>
-                      <?php if(!isset($_SESSION['logged_in'])){?>
+                      <?php
+                        if(!isset($_SESSION['logged_in'])){
+                      ?>
                         <form class="navbar-form navbar-right" action="<?php echo base_url('Home/login') ?>" method="post">
                          <div class="form-group">
                            <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usu&aacute;rio">
