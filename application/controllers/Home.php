@@ -9,10 +9,10 @@ class Home extends CI_Controller {
     }
     public function login(){
       $alerta = null;
-      $this->form_validation->set_rules('usuario','Usu&aacute;rio','required');
+      $this->form_validation->set_rules('user','Usu&aacute;rio','required');
       $this->form_validation->set_rules('senha','Senha','required');
       if($this->form_validation->run() == TRUE){
-        $usuario = $this->input->post('usuario');
+        $usuario = $this->input->post('user');
         $senha = md5($this->input->post('senha'));
         $login = $this->db->select('usuario,senha,id')->from('usuarios')->where('usuario',$usuario)->where('senha',$senha)->get()->first_row('array');
         if(sizeof($login) > 0){
@@ -25,7 +25,7 @@ class Home extends CI_Controller {
         }else{
           $alerta = array(
             'class' => 'danger',
-            'mensagem' => '<br> Usu&aacute;rio n&atilde;o cadastrado'
+            'mensagem' => '<br> Usu&aacute;ro e/ou login desconhecidos'
           );
         }
       }else{
@@ -47,7 +47,7 @@ class Home extends CI_Controller {
       $this->db->set('email',$this->input->post('email'));
       $this->db->set('senha',md5($this->input->post('senha')));
       $this->db->insert('usuarios');
-      $id = $this->db->select('id')->from('usuarios')->where('usuario',$this->input->post('user'))->where('senha',$senha)->get()->first_row('array');
+      $id = $this->db->select('id')->from('usuarios')->where('usuario',$this->input->post('user'))->where('senha',md5($this->input->post('senha')))->get()->first_row('array');
       $session = array(
         'usuario'  => $this->input->post('user'),
         'idusuario'  => $id['id'],

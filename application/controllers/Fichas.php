@@ -41,5 +41,8 @@ class Fichas extends CI_Controller {
       $this->db->where('id',$id)->delete('fichas');
       redirect('Fichas/minhasfichas');
     }
+    public function testepdf(){
+      $this->load->view('testepdf');
+    }
 
 }

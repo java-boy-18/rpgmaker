@@ -19,7 +19,17 @@ if(!isset($alerta)){
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
-        <script type="text/javascript" src="<?php echo base_url('templates/jquery/jquery.min.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('templates/jquery/jquery.js'); ?>"></script>
+        <script type="text/javascript">
+        function valida(){
+          jQuery.ajax({
+            url:'Fichas/testepdf',
+            success: function(retorno){
+              alert(retorno);
+            }
+          });
+        }
+        </script>
         <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
         <!-- <title>Home</title> -->
     </head>
@@ -45,14 +55,14 @@ if(!isset($alerta)){
                       ?>
                         <form class="navbar-form navbar-right" action="<?php echo base_url('Home/login') ?>" method="post">
                          <div class="form-group">
-                           <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usu&aacute;rio">
+                           <input type="text" name="user" id="user" class="form-control" required='true' placeholder="Usu&aacute;rio">
                          </div>
                          <div class="form-group">
-                           <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha">
+                           <input type="password" name="senha" id="senha" class="form-control" required='true' placeholder="Senha">
                          </div>
-                         <button type="submit" class="btn btn-default">Login</button>
+                         <button type="submit" onsubmit="valida()" class="btn btn-default">Login</button>
                          <div class="form-group">
-                           <a class="btn btn-default" href="<?php echo base_url('Home/cadastro') ?>">Cadastrar-se</a>
+                           <a class="btn btn-default"  href="<?php echo base_url('Home/cadastro') ?>">Cadastrar-se</a>
                          </div>
                        </form>
                      <?php }else{ ?>
