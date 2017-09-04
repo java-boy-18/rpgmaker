@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/ficha'); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('templates/css/principal/ficha'); ?>">
         <title>Ficha</title>
     </head>
     <body>
