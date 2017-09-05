@@ -7,6 +7,9 @@ class Home extends CI_Controller {
     public function index() {
         $this->load->view('layout');
     }
+    public function logar(){
+      $this->load->view('layout');
+    }
     public function login(){
       $alerta = null;
       $this->form_validation->set_rules('user','Usu&aacute;rio','required');

@@ -14,10 +14,10 @@ if(!isset($_SESSION['logged_in'])){
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
+        <!-- <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
         <script type="text/javascript" src="<?php echo base_url('templates/jquery/jquery.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo base_url('templates/jquery/bootstrap.js'); ?>"></script>
-        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 
         <title>Home</title>
 
@@ -29,8 +29,8 @@ if(!isset($_SESSION['logged_in'])){
       </div>
      <?php } ?>
  </body>
-    <body onload="slide1()">
+    <!-- <body onload="slide1()">
         <img id="id" height="650px" width="100%" style="padding-top:1%;padding-bottom: 1%;">
         <script type="text/javascript" src="<?php echo base_url('templates/jquery/js.js'); ?>"></script>
-    </body>
+    </body> -->
 </html>
