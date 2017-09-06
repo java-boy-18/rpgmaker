@@ -10,11 +10,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
         <!--<link rel="stylesheet" href="<?php echo base_url('templates/css/principal/fichas.css'); ?>">-->
         <link rel="stylesheet" href="<?php echo base_url('templates/jquery/jquery.min.js'); ?>">
-        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 
         <title>Fichas</title>
     </head>
-    <body>
+    <body colo>
         <fieldset style="border: 1px solid black">
             <div class="form-horizontal" style="margin-right:15%;">
                 <form method="post" action="<?php echo base_url('fichas/save') ?>">
@@ -154,7 +154,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                         <div class="form-group">
                             <div class="col-sm-12">
-                                <center><button type="submit" style="background-color: #422700; border: none;padding: 15px 32px;border-radius: 5px;box-shadow: -5px 5px 5px #381200; ">SALVAR</button></center>
+                                <center><button type="submit" style="background-color: #292E33; border: none;padding: 15px 32px;border-radius: 5px;box-shadow: -5px 5px 5px #1d2124; ">SALVAR</button></center>
                             </div>
                         </div>
                 </form>

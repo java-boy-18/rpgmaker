@@ -22,7 +22,7 @@ if(!isset($alerta)){
     <link href="./templates/css/principal/layout.css" rel="stylesheet">
 
   </head>
-  <body style=" background-image: url('./templates/imagens/07.jpg');">
+  <body style=" background-image: url('https://s-media-cache-ak0.pinimg.com/originals/84/22/5a/84225aded2689e9a30c88382641fe6cd.jpg');">
     <div class="container" style="margin-top:1%;" >
       <nav class="navbar navbar-default" style="background-color:#343A40;border-color:#343A40;">
         <div class="container-fluid">
@@ -64,7 +64,7 @@ if(!isset($alerta)){
              </div>
              <button type="submit" onsubmit="valida()" class="btn btn-default">Login</button>
              <div class="form-group">
-               <a class="btn btn-default"  href="<?php echo base_url('Home/cadastro') ?>">Cadastrar-se</a>
+               <a class="btn btn-default"  href="<?php echo base_url('Cadastro') ?>">Cadastrar-se</a>
              </div>
            </form>
           <?php } ?>
@@ -75,7 +75,7 @@ if(!isset($alerta)){
         <?php
         if($this->uri->segment(2) == 'minhasfichas'){
           $this->load->view('minhasfichas');
-        }elseif($this->uri->segment(2) == 'cadastro'){
+        }elseif($this->uri->segment(1) == 'Cadastro'){
           $this->load->view('cadastro');
         }elseif($this->uri->segment(1) == 'Fichas'){
           $this->load->view('fichas');

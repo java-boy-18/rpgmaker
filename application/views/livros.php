@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" href="<?php echo base_url('templates/css/principal/layout.css'); ?>">
         <!--<link rel="stylesheet" href="<?php echo base_url('templates/css/principal/fichas.css'); ?>">-->
         <link rel="stylesheet" href="<?php echo base_url('templates/jquery/jquery.min.js'); ?>">
-        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 
         <title>Fichas</title>
     </head>
