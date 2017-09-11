@@ -8,7 +8,7 @@ class Fichas extends CI_Controller {
         $this->load->view('layout');
     }
     public function save(){
-      if($_SESSION['logged_in'] == TRUE){
+      if(isset($_SESSION['logged_in'])){
         $this->db->set('idusuario',$_SESSION['idusuario']);
         $this->db->set('jogador',$this->input->post('jogador'));
         $this->db->set('personagem',$this->input->post('personagem'));

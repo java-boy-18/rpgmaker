@@ -1,14 +1,25 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+if(isset($_SESSION['logged_in'])){
+  $usuario = $_SESSION['usuario'];
+}else{
+  $usuario = $this->input->post('jogador');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('templates/css/principal/ficha.css'); ?>">
-        <title>Ficha</title>
+        <title>Ficha <?php echo $this->input->post('classe').' - '. $usuario; ?></title>
+        <style media="print">
+            #imprimir{
+              display: none;
+            }
+        </style>
     </head>
     <body>
       <div class="all">
+        <button id="imprimir" type="button" onclick="window.print();" name="button">IMPRIMIR</button>
         <!-- teste -->
         <div style="page-break-after:always">
         <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - CABEÇALHO - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->

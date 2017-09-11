@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Site para quem gosta de RPG">
-    <meta name="author" content="Tiago Miranda">
     <link href="<?php echo base_url('templates/css/bootstrap.css') ?>" rel="stylesheet">
     <link href="<?php echo base_url('templates/css/principal/layout.css') ?>" rel="stylesheet">
-  </head>
-  <body style=" background-image: url('<?php echo base_url('templates/imagens/07.jpg') ?>');">
     <div class="col-sm-12" style="text-align:center;" >
       <?php if (sizeof($data) > 0) {?>
       <table class="table table-condensed" >
@@ -52,7 +42,3 @@
           }
     ?>
     </div>
-    <script src="<?php echo base_url('templates/jquery/bootstrap.js') ?>"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  </body>
-</html>

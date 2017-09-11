@@ -18,9 +18,14 @@ if(!isset($alerta)){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Site para quem gosta de RPG">
     <meta name="author" content="Tiago Miranda">
-    <link href="./templates/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./templates/css/bootstrap.css" rel="stylesheet">
     <link href="./templates/css/principal/layout.css" rel="stylesheet">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body style=" background-image: url('https://s-media-cache-ak0.pinimg.com/originals/84/22/5a/84225aded2689e9a30c88382641fe6cd.jpg');">
     <div class="container" style="margin-top:1%;" >
