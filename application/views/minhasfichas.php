@@ -41,4 +41,7 @@
               echo 'N&atilde;o h&aacute; fichas para este usu&aacute;rio';
           }
     ?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="./templates/jquery/bootstrap.js"></script> -->
+
     </div>

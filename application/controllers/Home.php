@@ -10,41 +10,45 @@ class Home extends CI_Controller {
     public function logar(){
       $this->load->view('layout');
     }
-    public function login(){
-      $alerta = null;
-      $this->form_validation->set_rules('user','Usu&aacute;rio','required');
-      $this->form_validation->set_rules('senha','Senha','required');
-      if($this->form_validation->run() == TRUE){
-        $usuario = $this->input->post('user');
-        $senha = md5($this->input->post('senha'));
-        $login = $this->db->select('usuario,senha,id')->from('usuarios')->where('usuario',$usuario)->where('senha',$senha)->get()->first_row('array');
-        if(sizeof($login) > 0){
-          $session = array(
-            'usuario'  => $usuario,
-            'idusuario'  => $login['id'],
-            'logged_in' => TRUE
-          );
-          $this->session->set_userdata($session);
+    public function valida(){
+        $usuario = $this->input->post('usuario');
+        $senha = $this->input->post('senha');
+        $usuario = $this->db->select('id,usuario,senha')->from('usuarios')->where('senha',md5($senha))->get()->first_row('array');
+        if(sizeof($usuario)>0){
+            echo
+            '<div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>Usu&aacute;rio logado com sucesso !!!</strong>
+                <input type="text" id="retorno" value="sucesso">
+            </div>';
         }else{
-          $alerta = array(
-            'class' => 'danger',
-            'mensagem' => '<br> Usu&aacute;ro e/ou login desconhecidos'
-          );
+            echo
+            '<div class="alert alert-danger alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>Usu&aacute;rio n&atilde;o encontrado !!!</strong>
+                <input type="text" id="retorno" value="falha"></input>
+            </div>';
         }
-      }else{
-        $alerta = array(
-          'class' => 'danger',
-          'mensagem' => '<br>'.validation_errors()
-        );
-      }
-      $this->session->set_userdata($alerta);
-      redirect('home');
-
+    }
+    public function login(){
+        $usuario = $this->input->post('usuario');
+        $senha = $this->input->post('senha');
+        $usuario = $this->db->select('id,usuario,senha')->from('usuarios')->where('senha',md5($senha))->get()->first_row('array');
+        if(sizeof($usuario) > 0){
+            $session = array(
+                'usuario'  => $usuario,
+                'idusuario'  => $login['id'],
+                'logged_in' => TRUE
+            );
+            $this->session->set_userdata($session);
+            redirect('home');
+        }
     }
     public function cadastro(){
       $this->load->view('layout');
     }
     public function save(){
+    
       $this->db->set('nome',$this->input->post('nome'));
       $this->db->set('usuario',$this->input->post('user'));
       $this->db->set('email',$this->input->post('email'));
